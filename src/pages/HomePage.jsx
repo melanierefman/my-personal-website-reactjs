@@ -2,6 +2,18 @@ import HeroImage from '../assets/me2.png'
 import AboutImage from '../assets/me3.png'
 import React from '../assets/react.svg'
 import CodeIgniter from '../assets/codeigniter.svg'
+import DRPM from '../assets/web/drpm.png'
+import RH from '../assets/web/rh.png'
+import AKM from '../assets/web/akm.png'
+import ChatApp from '../assets/web/chatting-app.png'
+import Elearning from '../assets/portfolio.png'
+import SREITS from '../assets/web/sreitssc.png'
+import ICW2023 from '../assets/web/icw2023.png'
+import ITSEXPO from '../assets/web/itsexpo2023.png'
+import Njahit from '../assets/web/njahit.png'
+import Traveloka from '../assets/web/traveloka.png'
+import CaffeIjjo from '../assets/web/caffeijjo.png'
+import ITS from '../assets/its.jpg'
 
 const HomePage = () => {
   return (
@@ -235,6 +247,369 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div> 
+            </div>
+        </section>
+
+        {/* Experience Section */}
+        <section id="experience" className="pt-36 pb-32 bg-slate-100">
+            <div className="container">
+                <div className="w-full px-4">
+                    <div className="max-w-2xl mx-auto text-center mb-16">
+                        <h4 className="font-semibold text-lg text-primary mb-2">Experience</h4>
+                        <h2 className="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Highlights of My Journey</h2>
+                        <p className="font-medium text-md text-secondary">Here are my most recent experiences. These experiences have really played a big part in helping me grow personally and sharpen my skills.</p>
+                    </div>
+                </div>
+                <div className="w-full px-16 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                    <div className="w-full bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                        <div className="w-2xl mx-auto flex flex-col justify-between px-8 py-8 md:flex-row md:gap-8">
+                            <div className="max-md:order-1 md:w-1/3">
+                                <a href="https://www.instagram.com/its_campus/" target="_blank" className="mr-8 mb-2">
+                                    <img src={ITS} alt="ITS" className="w-24"/>
+                                </a>
+                            </div>
+                            <div className="max-md:order-3 md:w-2/3">
+                                <h3 className="font-semibold text-xl text-dark mb-5">Website Administrator Intern</h3>
+                                <ul className="list-disc text-dark">
+                                    <li className="mb-4">Managed content for a website that includes information about the Satgas Kemanusiaan ITS.</li>
+                                    <li className="mb-4">Created an attractive website design using Figma while considering optimal user experience.</li>
+                                    <li>Developing landing pages and news pages that are attractive and responsive.</li>
+                                </ul>
+                            </div>
+                            <div className="max-md:order-2 md:w-1/3">
+                                <p className="text-base text-dark mb-5 md:text-right">Mar 2024 - Present</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="w-full px-16 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                    <div className="w-full bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                        <div className="w-2xl mx-auto flex flex-col justify-between px-8 py-8 md:flex-row md:gap-8">
+                            <div className="max-md:order-1 md:w-1/3">
+                                <a href="#" target="_blank" className="mr-8 mb-2">
+                                    <img src="https://img.ws.mms.shopee.co.id/id-11134216-7r98s-lmzmrtbvchxd90" alt="RH by Rizka Haristi" className="w-16"/>
+                                </a>
+                            </div>
+                            <div className="max-md:order-3 md:w-2/3">
+                                <h3 className="font-semibold text-xl text-dark mb-5">Frontend Web Developer Intern</h3>
+                                <ul className="list-disc text-dark">
+                                    <li className="mb-4">Created an attractive and responsive landing page used to promote products released by RH using WordPress.</li>
+                                    <li>Designed a landing page using Figma to create an appealing and functional appearance</li>
+                                </ul>
+                            </div>
+                            <div className="max-md:order-2 md:w-1/3">
+                                <p className="text-base text-dark mb-5 md:text-right">Feb 2024 - Apr 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="w-full px-16 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                    <div className="w-full bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                        <div className="w-2xl mx-auto flex flex-col justify-between px-8 py-8 md:flex-row md:gap-8">
+                            <div className="max-md:order-1 md:w-1/3">
+                                <a href="https://www.instagram.com/sre_its/" target="_blank" className="mr-8 mb-2">
+                                    <img src="https://sreitsoprec.carrd.co/assets/images/image01.jpg?v=d0b2c816" alt="SRE ITS SC" className="w-16"/>
+                                </a>
+                            </div>
+                            <div className="max-md:order-3 md:w-2/3">
+                                <h3 className="font-semibold text-xl text-dark mb-5">IT DEV Staff</h3>
+                                <ul className="list-disc text-dark">
+                                    <li className="mb-4">Designed and implemented a UI for the SRE ITS SC web, with a primary focus on enhancing user experience.</li>
+                                    <li>Spearheaded the development of design elements and web pages, ensuring consistency and maintaining the distinctive visual identity of the website.</li>
+                                </ul>
+                            </div>
+                            <div className="max-md:order-2 md:w-1/3">
+                                <p className="text-base text-dark mb-5 md:text-right">Aug 2023 - Present</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="w-full px-16 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                    <div className="w-full bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                        <div className="w-2xl mx-auto flex flex-col justify-between px-8 py-8 md:flex-row md:gap-8">
+                            <div className="max-md:order-1 md:w-1/3">
+                                <a href="https://www.instagram.com/icw.2024/" target="_blank" className="mr-8 mb-2">
+                                    <img src="https://media.licdn.com/dms/image/D560BAQHIYgQjNZJyiA/company-logo_200_200/0/1682696058198?e=2147483647&v=beta&t=3bDhQFQjrQtVJi9fB0t522y6OcLgFvns1JJGbURSVhk" alt="ICW 2023" className="w-16"/>
+                                </a>
+                            </div>
+                            <div className="max-md:order-3 md:w-2/3">
+                                <h3 className="font-semibold text-xl text-dark mb-5">Web Developer</h3>
+                                <ul className="list-disc text-dark">
+                                    <li className="mb-4"> Designed and created optimal UI design for ICW 2023 web.</li>
+                                    <li>Responsible for developing design elements and pages, maintaining consistency, and ensuring the overall visual identity of the website.</li>
+                                </ul>
+                            </div>
+                            <div className="max-md:order-2 md:w-1/3">
+                                <p className="text-base text-dark mb-5 md:text-right">Apr 2023 - Jun 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="w-full px-16 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                    <div className="w-full bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                        <div className="w-2xl mx-auto flex flex-col justify-between px-8 py-8 md:flex-row md:gap-8">
+                            <div className="max-md:order-1 md:w-1/3">
+                                <a href="https://www.expo-its.com/" target="_blank" className="mr-8 mb-2">
+                                    <img src="img/itsexpo2023.png" alt="ITS EXPO 2023" className="w-16"/>
+                                </a>
+                            </div>
+                            <div className="max-md:order-3 md:w-2/3">
+                                <h3 className="font-semibold text-xl text-dark mb-5">Web Developer Staff</h3>
+                                <ul className="list-disc text-dark">
+                                    <li className="mb-4"> Developed and implemented a modern UI design for the ITS EXPO 2023 website.</li>
+                                    <li>Guided the creation of design elements and web pages, emphasizing consistency and preserving the unique visual identity of the website.</li>
+                                </ul>
+                            </div>
+                            <div className="max-md:order-2 md:w-1/3">
+                                <p className="text-base text-dark mb-5 md:text-right">Jan 2023 - May 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {/* Project Section */}
+        <section id="project" className="pt-36 pb-32">
+            <div className="container">
+                <div className="w-full px-4">
+                    <div className="max-w-2xl mx-auto text-center mb-16">
+                        <h4 className="font-semibold text-lg text-primary mb-2">Project</h4>
+                        <h2 className="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Discover My Work</h2>
+                        <p className="font-medium text-md text-secondary">Check out some of the cool projects I've wrapped up. Each one shows my commitment to trying out new things and making them top-notch.</p>
+                    </div>
+                </div>
+
+                <div className="flex flex-wrap">
+                    {/* DRPM ITS */}
+                    <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                            <img src={DRPM} alt="Programming" className="w-full"/>
+                            <div className="py-8 px-6">
+                                <h3 className="block mb-3 font-semibold text-xl text-dark truncate">Satgas Kemanusiaan ITS</h3>
+                                <p className="text-base text-secondary mb-8">This is the ITS Humanitarian Task Force website, which contains information about the background (about) and current news. 🌐 Currently, I am working on this project.</p>
+                                
+                                <div className="mb-8">
+                                    <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg">Wordpress</a>
+                                </div>
+                                
+                                <div className="flex items-center underline">
+                                    <a href="https://www.its.ac.id/kemanusiaan/id/beranda/" target="_blank" className="flex font-medium text-base text-dark hover:text-primary">Go to Website↗️</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Rizka Haristi */}
+                    <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                            <img src={RH} alt="Programming" className="w-full"/>
+                            <div className="py-8 px-6">
+                                <h3 className="block mb-3 font-semibold text-xl text-dark truncate">Eid Series Rizka Haristi</h3>
+                                <p className="text-base text-secondary mb-8">This is the landing page for promoting the Eid Mubarak edition products from Rizka Haristi! 🎉 I'm thrilled to be working on this project and receiving positive feedback.</p>
+                                
+                                <div className="mb-8">
+                                    <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg">WordPress</a>
+                                </div>
+                                
+                                <div className="flex items-center underline">
+                                    <a href="https://ad.rizkaharisti.com/eid-series/" target="_blank" className="flex font-medium text-base text-dark hover:text-primary">Go to Website↗️</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* AKM */}
+                    <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                            <img src={AKM} alt="Programming" className="w-full"/>
+                            <div className="py-8 px-6">
+                                <h3 className="block mb-3 font-semibold text-xl text-dark truncate">AKM Apps</h3>
+                                <p className="text-base text-secondary mb-8">This project was the final assignment for the Knowledge-Based Engineering course, where the website was used to showcase results from values emitted by the ESP32. 🌐✨</p>
+                                
+                                <div className="mb-8">
+                                    <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg mr-2">Tailwind</a>
+                                    <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg mr-2">PHP</a>
+                                    <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg">MYSQL</a>
+                                </div>
+                                
+                                <div className="flex items-center underline">
+                                    <a href="https://github.com/melanierefman/esp32-wifi-database-rsbp" target="_blank" className="font-medium text-base text-dark hover:text-primary">Github</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Chatting-Apps */}
+                    <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                            <img src={ChatApp} alt="Programming" className="w-full"/>
+                            <div className="py-8 px-6">
+                                <h3>
+                                    <a href="#" className="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Chatting Apps</a>
+                                </h3>
+                                <p className="text-base text-secondary mb-8">Created a chat app for the Web Programming final project. Scored an A and feeling ecstatic about this achievement! 🚀📱 Unleashing my coding prowess was truly rewarding.</p>
+                                
+                                <div className="mb-8">
+                                    <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg mr-2">VueJS</a>
+                                    <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg mr-2">Payload</a>
+                                    <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg">Boostrap</a>
+                                </div>
+                                
+                                <div className="flex items-center underline">
+                                    <a href="https://github.com/melanierefman/chatting_app-vuejs-pweb" target="_blank" className="font-medium text-base text-dark hover:text-primary">Github</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* E-Learning */}
+                    <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                            <img src={Elearning} alt="Programming" className="w-full"/>
+                            <div className="py-8 px-6">
+                                <h3>
+                                    <a href="#" className="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">E-Learning</a>
+                                </h3>
+                                <p className="text-base text-secondary mb-8">Cooked up an e-learning app based on a real-life case. Final project for the framework-based programming course, snagged an A! 🚀📚 Thrilled with the accomplishment!</p>
+                                
+                                <div className="mb-8">
+                                    <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg mr-2">CodeIgniter</a>
+                                    <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg mr-2">PHP</a>
+                                    <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg">MYSQL</a>
+                                </div>
+                                
+                                <div className="flex items-center underline">
+                                    <a href="https://github.com/melanierefman/elearning-fp-pbkk" target="_blank" className="font-medium text-base text-dark hover:text-primary">Github</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* SRE ITS SC 2023 */}
+                    <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                            <img src={SREITS} alt="Programming" className="w-full"/>
+                            <div className="py-8 px-6">
+                                <h3>
+                                    <a href="#" className="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">SRE ITS SC</a>
+                                </h3>
+                                <p className="text-base text-secondary mb-8">Collaborated with my team to craft user-friendly desktop and mobile interfaces, prioritizing the audience's needs. 🌟</p>
+                                
+                                <div className="mb-8">
+                                    <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg">UI Design</a>
+                                </div>
+                                
+                                <div className="flex items-center underline">
+                                    {/* <a href="https://www.figma.com/file/c9BUe69yaJbdLNtbo3H5wW/ICW-2023?type=design&node-id=2307%3A5644&mode=design&t=cL96oXx0N1cUynwE-1" target="_blank" className="font-medium text-base text-dark hover:text-primary">Figma</a> */}
+                                    <a href="https://www.sre-its.com/" target="_blank" className="flex font-medium text-base text-dark hover:text-primary">Go to Website↗️</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* ICW 2023 */}
+                    <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                            <img src={ICW2023} alt="Programming" className="w-full"/>
+                            <div className="py-8 px-6">
+                                <h3>
+                                    <a href="#" className="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Indonesia Corrosion Week 2023</a>
+                                </h3>
+                                <p className="text-base text-secondary mb-8">Designed desktop and mobile interfaces with a user-centric approach, making sure they're just what the audience wants. 🚀</p>
+                                
+                                <div className="mb-8">
+                                    <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg mr-2">UI Design</a>
+                                    <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg">UX Research</a>
+                                </div>
+                                
+                                <div className="flex items-center underline">
+                                    <a href="https://www.figma.com/file/c9BUe69yaJbdLNtbo3H5wW/ICW-2023?type=design&node-id=2307%3A5644&mode=design&t=cL96oXx0N1cUynwE-1" target="_blank" className="font-medium text-base text-dark hover:text-primary">Figma</a>
+                                    <a href="https://www.indocor-its.com/icw" target="_blank" className="flex font-medium text-base text-dark px-4 hover:text-primary">Go to Website↗️</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* ITS EXPO 2023 */}
+                    <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                            <img src={ITSEXPO} alt="Programming" className="w-full"/>
+                            <div className="py-8 px-6">
+                                <h3>
+                                    <a href="#" className="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">ITS EXPO 2023</a>
+                                </h3>
+                                <p className="text-base text-secondary mb-8">Created desktop and mobile UIs together as a team. We collaborated to cook up some awesome designs! 🎨💻📱</p>
+                                
+                                <div className="mb-8">
+                                    <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg mr-2">UI Design</a>
+                                    {/* <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg">VueJs</a> */}
+                                </div>
+                                
+                                <div className="flex items-center underline">
+                                    {/* <a href="https://www.figma.com/file/Zety89JpQ9xMUG3DVFEjIR/ITS-EXPO-2023?type=design&node-id=846%3A3781&mode=design&t=sxWXFSt7tRK5eaVJ-1" target="_blank" className="font-medium text-base text-dark hover:text-primary">Figma</a> */}
+                                    <a href="https://www.expo-its.com/" target="_blank" className="flex font-medium text-base text-dark hover:text-primary">Go to Website↗️</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Traveloka */}
+                    <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                            <img src={Traveloka} alt="Programming" className="w-full"/>
+                            <div className="py-8 px-6">
+                                <h3>
+                                    <a href="#" className="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Traveloka</a>
+                                </h3>
+                                <p className="text-base text-secondary mb-8">Giving Traveloka's desktop a makeover for my UI/UX final project – just leveling up my design game! 🚀✨</p>
+                                
+                                <div className="mb-8">
+                                    <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg mr-2">UI Design</a>
+                                    <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg">UX Research</a>
+                                </div>
+                                
+                                <div className="flex items-center underline">
+                                    <a href="https://www.figma.com/file/Ro6aDkHjiXABMp8vj6LgSf/Traveloka?type=design&node-id=56%3A701&mode=design&t=6YtRsWouTOD1c8WG-1" target="_blank" className="font-medium text-base text-dark hover:text-primary">Figma</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* CaffeIjjo */}
+                    <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                            <img src={CaffeIjjo} alt="Programming" className="w-full"/>
+                            <div className="py-8 px-6">
+                                <h3>
+                                    <a href="#" className="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">CaffeIjjo</a>
+                                </h3>
+                                <p className="text-base text-secondary mb-8">This project was one of my finals for a course at uni, and you know what? I nailed it with an awesome A! 🌟 Crushing it!</p>
+                                
+                                <div className="mb-8">
+                                    <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg mr-2">UI Design</a>
+                                    <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg">UX Research</a>
+                                </div>
+                                
+                                <div className="flex items-center underline">
+                                    <a href="https://www.figma.com/file/oeF7iNpH9P1CnTkAEcUwC6/CaffeIjjo?type=design&node-id=548%3A4310&mode=design&t=BOi02F4NaMaGN4TD-1" target="_blank" className="font-medium text-base text-dark hover:text-primary">Figma</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Njahit */}
+                    <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                            <img src={Njahit} alt="Programming" className="w-full"/>
+                            <div className="py-8 px-6">
+                                <h3>
+                                    <a href="#" className="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Njahit</a>
+                                </h3>
+                                <p className="text-base text-secondary mb-8">Whipped up this project with the squad to dive into a UI/UX design competition. Let's rock it together! 🚀🎨Team vibes strong!</p>
+                                
+                                <div className="mb-8">
+                                    <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg mr-2">UI/UX Design</a>
+                                    <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg">Design Thinking</a>
+                                </div>
+                                
+                                <div className="flex items-center underline">
+                                    <a href="https://www.figma.com/file/vsyin92wS22So4rjZXlhQf/Njahit?type=design&node-id=0%3A1&mode=design&t=hKHPcl86v1obc6Ls-1" target="_blank" className="font-medium text-base text-dark hover:text-primary">Figma</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
